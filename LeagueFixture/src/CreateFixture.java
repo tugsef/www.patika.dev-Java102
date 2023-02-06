@@ -112,9 +112,9 @@ public class CreateFixture {
 		for (int i = 0 ;i < countMatchList.size();i++) {
 			count++;
 			if(i==0) {
-				System.out.println("******************LEAGUE FİXTURE******************\n");
+				System.out.println("***************LEAGUE FİXTURE***************\n");
 				
-				System.out.println((weekcount+1) + ":WEEK");
+				System.out.println(String.format("%25s", (weekcount+1) + ":WEEK")+"\n");
 				
 				
 	         }	
@@ -122,9 +122,9 @@ public class CreateFixture {
          if((teamsList.size()+1)/2==(count)) {
         	
 				
-				System.out.println("\n******************LEAGUE FİXTURE******************");
+				System.out.println("\n***************LEAGUE FİXTURE***************\n");
 				if(i <(countMatchList.size()-1)){
-				 System.out.println("\n"+(weekcount+2) + ":WEEK");
+				 System.out.println(String.format("%25s",(weekcount+2) + ":WEEK"+"\n"));
 				count = 0;
 				weekcount++;
 				}

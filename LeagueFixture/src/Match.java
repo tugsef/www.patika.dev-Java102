@@ -38,7 +38,8 @@ public class Match {
 
 	@Override
 	public String toString() {
-		return this.hometeam + " Vs " + this.awayteam;
+		String fmt = "%1$20s %2$-2s %3$-15s%n";
+		return String.format(fmt, this.hometeam,"Vs",this.awayteam);
 	}
 	
 	
