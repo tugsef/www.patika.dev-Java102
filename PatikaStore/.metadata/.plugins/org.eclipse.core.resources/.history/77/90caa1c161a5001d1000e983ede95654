@@ -1,0 +1,25 @@
+package shoppingStore.patikaStore.categories;
+
+import java.util.List;
+
+public class Category extends AbstractCotagories{
+	
+	private int id;
+	private String name;
+	
+	private List<C>
+	
+	public Cateory(String name) {
+		super();
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+}

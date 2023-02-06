@@ -1,0 +1,113 @@
+package shoppingStore.patikaStore.inventory;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import shoppingStore.patikaStore.categories.Categories;
+import shoppingStore.patikaStore.products.Products;
+
+public class Inventory extends AbstractInventory{
+	
+	private int id;
+	private Categories category;
+	private Products product;
+	
+	private static List<Inventory> inventory = new LinkedList<Inventory>();
+	
+	private static int count = 0;
+	
+	public Inventory() {
+		super();
+	}
+
+
+
+	public Inventory(Categories category, Products product) {
+		super();
+		this.id = count+1;
+		this.category = category;
+		this.product = product;
+		count++;
+	}
+	
+	
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Categories getCategory() {
+		return category;
+	}
+
+	public void setCategory(Categories category) {
+		this.category = category;
+	}
+
+	public Products getProduct() {
+		return product;
+	}
+
+	public void setProduct(Products product) {
+		this.product = product;
+	}
+
+	public static List<Inventory> getInventory() {
+		return inventory;
+	}
+
+	public static void setInventory(List<Inventory> inventory) {
+		Inventory.inventory = inventory;
+	}
+
+
+
+	@Override
+	public String toString() {
+		
+		String fmt = "%1$4s %2$10s %3$10s%n";
+		return String.format(fmt,this.id,this.category.toString(),this.product.toString());
+	}
+
+
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	@Override
+	public void delete(int x) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+	@Override
+	public void showInfo() {
+		System.out.println("---------------------------Patika Store Ürün Listesi\n\n");
+	
+		String fmt = "%1$4s %2$10s %3$4s %4$20s %5$13s %6$13s %7$13s %8$13s %9$13s %10$13s %11$18s %12$13s %13$13s%n";
+		System.out.println(String.format(fmt,"StoreId","Kategori","İd","Ürün Adı","Marka","Fiyat","İndirim","Stok Miktarı","Hafıza","Ekran","Batarya","RAM/Kamera","Renk"));
+		System.out.println(String.format(fmt,"-------", "--------","--","--------","-----","-----","-------","------------","------","-----","-------","----------","----"));
+		
+		for (Inventory inventory2 : inventory) {
+			System.out.println(inventory2.toString());
+		}
+		System.out.println(String.format(fmt, "-------", "--------","--","--------","-----","-----","-------","------------","------","-----","-------","----------","----"));
+		System.out.println("\n---------------------------Patika Store Ürün Listesi\n");
+	}
+
+	
+	
+	
+	
+}

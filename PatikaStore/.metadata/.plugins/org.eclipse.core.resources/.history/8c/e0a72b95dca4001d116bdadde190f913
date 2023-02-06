@@ -1,0 +1,24 @@
+package shoppingStore.patikaStore.brands;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import shoppingStore.patikaStore.PatikaStore;
+
+public class Brand extends AbstractBrands {
+	
+	private int id = 0;
+	private String name;
+	private static List<Brands> brandList = new LinkedList<>();
+	
+	public Brand(String name) {
+		super();
+		this.id++;
+		this.id = this.id;
+		this.name = name;
+		
+		brandList.add(new Brand(this.name));
+	}
+	
+	
+}

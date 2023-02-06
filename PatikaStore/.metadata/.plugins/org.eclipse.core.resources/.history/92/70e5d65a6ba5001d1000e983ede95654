@@ -1,0 +1,80 @@
+package shoppingStore.patikaStore.inventory;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import shoppingStore.patikaStore.categories.Categories;
+import shoppingStore.patikaStore.products.Products;
+
+public class Inventory {
+	
+	private int id;
+	private Categories category;
+	private Products product;
+	
+	private static List<Inventory> inventory = new LinkedList<Inventory>();
+	
+	private static int count = 0;
+	
+	public Inventory() {
+		
+	}
+
+
+
+	public Inventory(Categories category, Products product) {
+		super();
+		this.id = count+1;
+		this.category = category;
+		this.product = product;
+		count++;
+	}
+	
+	
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Categories getCategory() {
+		return category;
+	}
+
+	public void setCategory(Categories category) {
+		this.category = category;
+	}
+
+	public Products getProduct() {
+		return product;
+	}
+
+	public void setProduct(Products product) {
+		this.product = product;
+	}
+
+	public static List<Inventory> getInventory() {
+		return inventory;
+	}
+
+	public static void setInventory(List<Inventory> inventory) {
+		Inventory.inventory = inventory;
+	}
+
+
+
+	@Override
+	public String toString() {
+		String message = String.valueOf(this.id) + " " + category.toString() + " " + product.toString();
+				
+		return message;
+	}
+
+	
+	
+	
+	
+}

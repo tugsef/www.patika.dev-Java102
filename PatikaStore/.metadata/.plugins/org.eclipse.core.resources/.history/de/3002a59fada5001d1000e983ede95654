@@ -1,0 +1,101 @@
+package shoppingStore.patikaStore.products;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import shoppingStore.patikaStore.brands.Brands;
+
+public class MobilePhone extends AbstractProducts {
+	
+	private int id;
+	private String memory;
+	private String screenSize;
+	private String batteyPower;
+	private String ram;
+	private String color;
+	
+	
+	private List<MobilePhone> mobilePhoneList = new LinkedList<>();
+
+	private int count = 0;
+
+	public MobilePhone(int id, String memory, String screenSize, String batteyPower, String ram, String color) {
+		super();
+		this.id = count+1;
+		this.memory = memory;
+		this.screenSize = screenSize;
+		this.batteyPower = batteyPower;
+		this.ram = ram;
+		this.color = color;
+		count++;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getMemory() {
+		return memory;
+	}
+
+	public void setMemory(String memory) {
+		this.memory = memory;
+	}
+
+	public String getScreenSize() {
+		return screenSize;
+	}
+
+	public void setScreenSize(String screenSize) {
+		this.screenSize = screenSize;
+	}
+
+	public String getBatteyPower() {
+		return batteyPower;
+	}
+
+	public void setBatteyPower(String batteyPower) {
+		this.batteyPower = batteyPower;
+	}
+
+	public String getRam() {
+		return ram;
+	}
+
+	public void setRam(String ram) {
+		this.ram = ram;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public List<MobilePhone> getMobilePhoneList() {
+		return mobilePhoneList;
+	}
+
+	public void setMobilePhoneList(List<MobilePhone> mobilePhoneList) {
+		this.mobilePhoneList = mobilePhoneList;
+	}
+
+	
+
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package shoppingStore.patikaStore.products;
+
+public class AbstractProducts {
+
+}

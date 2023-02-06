@@ -1,0 +1,8 @@
+package shoppingStore.patikaStore.brands;
+
+import shoppingStore.patikaStore.PatikaStore;
+
+public interface Brands extends PatikaStore {
+
+
+}

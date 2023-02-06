@@ -1,0 +1,21 @@
+package shoppingStore;
+
+import java.util.List;
+
+import shoppingStore.patikaStore.brands.Brand;
+import shoppingStore.patikaStore.brands.Brands;
+
+public class Patikadev {
+ public static void main(String[] args) {
+	 Brands brand = new Brand("Sefa");
+	 Brands brands = new Brand("Tuğba");
+	 
+	 List<Brands> brandd = Brand.getBrandList();
+	 brandd.add(brand);
+	 brand.add(brands);
+	 for (Brands brands2 : brandd) {
+		System.out.println(brands2);
+	}
+	 
+ }
+}

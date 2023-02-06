@@ -1,0 +1,6 @@
+
+public interface PatikaStore {
+  PatikaStore add();
+  void delete();
+  void showInfo();
+}

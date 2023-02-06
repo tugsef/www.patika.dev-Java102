@@ -1,0 +1,13 @@
+package shoppingStore.patikaStore;
+
+import java.util.List;
+
+import shoppingStore.ShoppingStore;
+
+public interface PatikaStore extends ShoppingStore{
+
+	PatikaStore add();
+	void delete(int x);
+	void showInfo(List<Object> s);
+	
+}

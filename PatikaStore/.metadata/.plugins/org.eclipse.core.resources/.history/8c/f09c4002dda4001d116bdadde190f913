@@ -1,0 +1,10 @@
+package shoppingStore;
+
+import shoppingStore.patikaStore.brands.Brand;
+
+public class Patikadev {
+ public static void main(String[] args) {
+	 Brand brand = new
+	 
+ }
+}

@@ -1,0 +1,26 @@
+package shoppingStore.patikaStore.categories;
+
+import java.util.List;
+
+import shoppingStore.patikaStore.PatikaStore;
+
+public class AbstractCotagories implements Categories{
+
+	@Override
+	public PatikaStore add(PatikaStore s) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(int x) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showInfo(List<PatikaStore> p) {
+		// TODO Auto-generated method stub
+
+}
+}

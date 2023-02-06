@@ -1,0 +1,142 @@
+package shoppingStore.patikaStore.products;
+
+import java.io.Console;
+import java.util.LinkedList;
+import java.util.List;
+
+import shoppingStore.patikaStore.PatikaStore;
+import shoppingStore.patikaStore.brands.Brands;
+
+public class Notebook extends AbstractProducts{
+	
+	private int id;
+	private String memory;
+	private String screenSize;
+	private String batteyPower;
+	private String ram;
+	private String color;
+	
+	private static List<PatikaStore> notebookList = new LinkedList<>();
+	
+	private static int count = 0;
+	
+	
+	
+	public Notebook() {
+		super();
+	}
+
+
+
+	public Notebook(String name, Brands brand, double price, int discountRate, int amount, String memory,
+			String screenSize, String batteyPower, String ram, String color) {
+		super(name, brand, price, discountRate, amount);
+		this.id = count+1;
+		this.memory = memory;
+		this.screenSize = screenSize;
+		this.batteyPower = batteyPower;
+		this.ram = ram;
+		this.color = color;
+		count++;
+	}
+
+	
+
+	public String getMemory() {
+		return memory;
+	}
+
+	public void setMemory(String memory) {
+		this.memory = memory;
+	}
+
+	public String getScreenSize() {
+		return screenSize;
+	}
+
+	public void setScreenSize(String screenSize) {
+		this.screenSize = screenSize;
+	}
+
+	public String getBatteyPower() {
+		return batteyPower;
+	}
+
+	public void setBatteyPower(String batteyPower) {
+		this.batteyPower = batteyPower;
+	}
+
+	public String getRam() {
+		return ram;
+	}
+
+	public void setRam(String ram) {
+		this.ram = ram;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+
+
+	public static List<PatikaStore> getNotebookList() {
+		return notebookList;
+	}
+
+
+
+	public int getId() {
+		return id;
+	}
+
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+
+	public static void setNotebookList(List<PatikaStore> notebookList) {
+		Notebook.notebookList = notebookList;
+	}
+
+	
+
+
+
+
+
+	@Override
+	public void showInfo(List<PatikaStore> p) {
+		String fmt = "%1$4s %2$13s %3$13s %4$13s %5$13s %6$13s %7$13s %8$13s %9$18s %10$13s %11$13s%n";
+		System.out.println(String.format(fmt,"İd","Ürün Adı","Marka","Fiyat","İndirim","Stok Miktarı","Hafıza","Ekran","Batarya","RAM","Renk"));
+	System.out.println(String.format(fmt, "--","--------","-----","-----","-------","------------","------","-----","-------","---","----"));
+		for (PatikaStore patikaStore : p) {
+			System.out.println(patikaStore);
+		}
+		
+		System.out.println(String.format(fmt, "--","--------","-----","-----","-------","------------","------","-----","-------","---","----"));
+	}
+
+
+
+	@Override
+	public String toString() {
+		
+		String fmt = "%1$4s %2$13s %3$13s %4$13s %5$13s %6$13s %7$13s %8$13s %9$18s %10$13s %11$13s%n";
+		return String.format(fmt, String.valueOf(this.getId()),this.getName(),this.getBrand().toString(),
+							String.valueOf(this.getPrice()),String.valueOf(this.getDiscountRate()),
+							String.valueOf(this.getAmount()),this.memory,this.screenSize,this.batteyPower,this.ram,this.color)  ;
+	}
+	
+	
+	
+	
+	
+}

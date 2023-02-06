@@ -1,0 +1,54 @@
+package shoppingStore.patikaStore.brands;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import shoppingStore.patikaStore.PatikaStore;
+
+public class Brand extends AbstractBrands {
+	
+	private int id;
+	private String name;
+	private static List<Brands> brandList = new LinkedList<>();
+	private static int count = 0;
+	public Brand(String name) {
+		super();
+		
+		this.id = count+1;
+		this.name = name;
+		count++;
+		
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public static List<Brands> getBrandList() {
+		return brandList;
+	}
+
+	public static void setBrandList(List<Brands> brandList) {
+		Brand.brandList = brandList;
+	}
+
+	@Override
+	public String toString() {
+		return "Brand [id=" + id + ", name=" + name + "]";
+	}
+	
+	
+	
+}

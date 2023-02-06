@@ -1,0 +1,24 @@
+package shoppingStore;
+
+import java.util.List;
+
+import shoppingStore.patikaStore.brands.Brand;
+import shoppingStore.patikaStore.brands.Brands;
+
+public class Patikadev {
+ public static void main(String[] args) {
+	 
+	 List<Brands> brands = Brand.getBrandList();
+	 brands.add(n)
+
+	
+	
+	;
+	
+	
+	
+
+	}
+	 
+ }
+

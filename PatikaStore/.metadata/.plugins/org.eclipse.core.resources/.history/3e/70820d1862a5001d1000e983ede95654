@@ -1,0 +1,5 @@
+package shoppingStore.patikaStore.categories;
+
+public interface Categories {
+
+}

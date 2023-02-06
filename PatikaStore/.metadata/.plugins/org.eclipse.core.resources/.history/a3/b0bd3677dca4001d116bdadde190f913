@@ -1,0 +1,54 @@
+package shoppingStore.patikaStore.inventory;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class Inventory {
+	
+	private int id;
+	private Categories category;
+	private Brands brand;
+	private static List<Inventory> inventory = new LinkedList<Inventory>();
+	
+	public Inventory(int id, Categories category, Brands brand) {
+		super();
+		this.id = id;
+		this.category = category;
+		this.brand = brand;
+		inventory.add(new Inventory(this.id, this.category, this.brand));
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Categories getCategory() {
+		return category;
+	}
+
+	public void setCategory(Categories category) {
+		this.category = category;
+	}
+
+	public Brands getBrand() {
+		return brand;
+	}
+
+	public void setBrand(Brands brand) {
+		this.brand = brand;
+	}
+
+	public static List<Inventory> getInventory() {
+		return inventory;
+	}
+
+	public static void setInventory(List<Inventory> inventory) {
+		Inventory.inventory = inventory;
+	}
+	
+	
+}

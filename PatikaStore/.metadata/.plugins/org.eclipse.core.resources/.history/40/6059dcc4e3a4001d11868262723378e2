@@ -1,0 +1,11 @@
+package shoppingStore.patikaStore.brands;
+
+public class OrderName implements Comparable<Brand> {
+
+	@Override
+	public int compareTo(Brand o) {
+		
+		return 0;
+	}
+
+}

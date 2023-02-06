@@ -1,0 +1,11 @@
+package shoppingStore.patikaStore;
+
+import shoppingStore.ShoppingStore;
+
+public interface PatikaStore extends ShoppingStore{
+
+	PatikaStore add();
+	void delete();
+	void showInfo();
+	
+}

@@ -1,0 +1,25 @@
+package shoppingStore.patikaStore.inventory;
+
+import shoppingStore.patikaStore.PatikaStore;
+
+abstract class AbstractInventory implements IInventory {
+
+	@Override
+	public PatikaStore add() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showInfo() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

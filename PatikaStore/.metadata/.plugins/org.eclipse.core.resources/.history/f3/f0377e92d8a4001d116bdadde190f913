@@ -1,0 +1,7 @@
+package shoppingStore.patikaStore.inventory;
+
+import shoppingStore.patikaStore.PatikaStore;
+
+public interface Inventory extends PatikaStore {
+
+}

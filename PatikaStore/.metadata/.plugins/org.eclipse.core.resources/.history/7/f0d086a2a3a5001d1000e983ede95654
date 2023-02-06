@@ -1,0 +1,20 @@
+package shoppingStore;
+
+import java.util.List;
+
+import shoppingStore.patikaStore.brands.Brand;
+
+public class Patikadev {
+ public static void main(String[] args) {
+	 
+	DisplayScreen screen = new DisplayScreen();
+	screen.start();
+	 
+
+	
+	
+
+	}
+	 
+ }
+

@@ -1,0 +1,29 @@
+package shoppingStore;
+
+import java.util.List;
+
+import shoppingStore.patikaStore.brands.Brand;
+
+public class Patikadev {
+ public static void main(String[] args) {
+	 
+	 List<Brand> brands = Brand.getBrandList();
+	
+	 brands.add(new Brand("Lenovo"));
+	 brands.add(new Brand("Apple"));
+	 brands.add(new Brand("Huawei"));
+	 brands.add(new Brand("Casper"));
+	 brands.add(new Brand("Asus"));
+	 brands.add(new Brand("HP"));
+	 brands.add(new Brand("Asus"));
+	 brands.add(new Brand("Xiaomi"));
+	 brands.add(new Brand("Monster"));
+	 
+
+	
+	
+
+	}
+	 
+ }
+

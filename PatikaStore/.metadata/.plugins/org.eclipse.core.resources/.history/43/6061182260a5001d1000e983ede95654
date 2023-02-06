@@ -1,0 +1,44 @@
+package shoppingStore.patikaStore.products;
+
+import java.util.LinkedList;
+import java.util.List;
+
+import shoppingStore.patikaStore.brands.Brands;
+
+public class MobilePhone extends AbstractProducts {
+	
+	private int id;
+	private String memory;
+	private String screenSize;
+	private String batteyPower;
+	private String ram;
+	private String color;
+	
+	
+	private List<MobilePhone> mobilePhone = new LinkedList<>();
+
+	private int count = 0;
+
+	public MobilePhone(int id, String name, Brands brand, double price, int discountRate, int amount, int id2,
+			String memory, String screenSize, String batteyPower, String ram, String color,
+			List<MobilePhone> mobilePhone, int count) {
+		super(id, name, brand, price, discountRate, amount);
+		id = id2;
+		this.memory = memory;
+		this.screenSize = screenSize;
+		this.batteyPower = batteyPower;
+		this.ram = ram;
+		this.color = color;
+		this.mobilePhone = mobilePhone;
+		this.count = count;
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+}

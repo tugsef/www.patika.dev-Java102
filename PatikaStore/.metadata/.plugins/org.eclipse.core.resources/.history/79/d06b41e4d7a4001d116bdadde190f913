@@ -1,0 +1,5 @@
+package shoppingStore.patikaStore;
+
+public interface ShoppingStoreo {
+
+}

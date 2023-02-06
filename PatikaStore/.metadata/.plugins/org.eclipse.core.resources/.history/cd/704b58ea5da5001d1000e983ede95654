@@ -1,0 +1,11 @@
+package shoppingStore.patikaStore.products;
+
+import shoppingStore.patikaStore.brands.Brands;
+
+public class MobilePhone extends AbstractProducts {
+	
+	
+	
+	
+	
+}

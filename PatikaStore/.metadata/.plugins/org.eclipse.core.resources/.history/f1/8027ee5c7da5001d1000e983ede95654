@@ -1,0 +1,29 @@
+package shoppingStore.patikaStore.brands;
+
+import java.util.List;
+
+import shoppingStore.patikaStore.PatikaStore;
+
+abstract class AbstractBrands implements Brands{
+	
+	
+	
+	@Override
+	public PatikaStore add(PatikaStore p) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(int x) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void showInfo(List<PatikaStore> p) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

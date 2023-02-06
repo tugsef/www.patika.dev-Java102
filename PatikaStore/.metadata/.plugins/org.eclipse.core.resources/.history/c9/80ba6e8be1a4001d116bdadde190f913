@@ -1,0 +1,7 @@
+package shoppingStore;
+
+import shoppingStore.patikaStore.brands.Brands;
+
+public interface ShoppingStore {
+
+}

@@ -1,0 +1,5 @@
+package shoppingStore.patikaStore.inventory;
+
+public interface Inventory {
+
+}
