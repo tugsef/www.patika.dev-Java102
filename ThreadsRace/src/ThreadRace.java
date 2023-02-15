@@ -1,10 +1,5 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Random;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 public class ThreadRace implements Runnable{
 	
@@ -18,6 +13,18 @@ public class ThreadRace implements Runnable{
 	
 	private int threadselect;
 	
+	public static synchronized void incerease(int threadselect) {
+		for (Integer integer : simpleList.get(threadselect)) {
+			if(integer%2==0) {
+				evenNumberLİst.add(integer);
+			}else
+			 {
+				oddNumberList.add(integer);
+			}
+		}
+		
+		
+	}
 	
 	public ThreadRace() {
 		super();
@@ -44,10 +51,10 @@ public class ThreadRace implements Runnable{
 		}
 	}
 
-	public  void threadRace() {
+	public synchronized  void threadRace() {
 		
 				
-		System.out.println("******************************************************\n");
+		
  System.out.println((this.threadselect+1) + ".Thread işe başladı...");
 		try {
 			Thread.sleep(5000);
@@ -64,14 +71,7 @@ public class ThreadRace implements Runnable{
 			}
 		}
 		
-		for (Integer integer : simpleList.get(threadselect)) {
-			if(integer%2==0) {
-				evenNumberLİst.add(integer);
-			}
-			if(integer%2==1) {
-				oddNumberList.add(integer);
-			}
-		}
+	incerease(threadselect);
 		
 		System.out.println((this.threadselect+1) + ".Thread işini bitirdi");
 		
@@ -82,17 +82,49 @@ public class ThreadRace implements Runnable{
 		System.out.println("Tek Çift Toplam : " + (evenNumberLİst.size() + oddNumberList.size() ));
 		System.out.println("--------------------------------------------------------");
 		
-		System.out.println("\n******************************************************");
+		
 
 	}
 	
 	
 	@Override
 	public void run() {
-
-			threadRace();
-		
 	
+			threadRace();
+			
+	
+	}
+
+	public static ArrayList<Integer> getMainList() {
+		return mainList;
+	}
+
+	public static void setMainList(ArrayList<Integer> mainList) {
+		ThreadRace.mainList = mainList;
+	}
+
+	public static ArrayList<Integer> getOddNumberList() {
+		return oddNumberList;
+	}
+
+	public static void setOddNumberList(ArrayList<Integer> oddNumberList) {
+		ThreadRace.oddNumberList = oddNumberList;
+	}
+
+	public static ArrayList<Integer> getEvenNumberLİst() {
+		return evenNumberLİst;
+	}
+
+	public static void setEvenNumberLİst(ArrayList<Integer> evenNumberLİst) {
+		ThreadRace.evenNumberLİst = evenNumberLİst;
+	}
+
+	public int getThreadselect() {
+		return threadselect;
+	}
+
+	public void setThreadselect(int threadselect) {
+		this.threadselect = threadselect;
 	}
 
 	
