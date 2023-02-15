@@ -13,7 +13,7 @@ import insuranceSystem.account.users.Users;
 import insuranceSystem.account.users.adress.Addresses;
 import insuranceSystem.account.users.adress.HomeAdress;
 
-public class AccountManager implements SystemInsurance {
+public class AccountManager {
 	
 	private TreeSet<AbstractAccount> accounts  = new TreeSet<>(new OrderId());
 	
