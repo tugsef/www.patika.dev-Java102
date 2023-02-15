@@ -14,6 +14,12 @@ public class ThreadRace implements Runnable{
 	private int threadselect;
 	
 	public static synchronized void incerease(int threadselect) {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		for (Integer integer : simpleList.get(threadselect)) {
 			if(integer%2==0) {
 				evenNumberLİst.add(integer);
@@ -56,12 +62,7 @@ public class ThreadRace implements Runnable{
 				
 		
  System.out.println((this.threadselect+1) + ".Thread işe başladı...");
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		
 	
 		for (int i = 0 ; i <mainList.size() ; i++ ) {
 			if(i%4==this.threadselect) {
