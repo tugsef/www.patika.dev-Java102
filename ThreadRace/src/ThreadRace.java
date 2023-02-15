@@ -73,7 +73,7 @@ public class ThreadRace {
 					
 				}
 			}
-			
+		 }
 		increase(id);
 			
 			System.out.println("\n" + (id+1) + ".Thread işini bitirdi");
@@ -85,7 +85,7 @@ public class ThreadRace {
 			System.out.println("Tek Çift Toplam : " + (evenNumberLİst.size() + oddNumberList.size() ));
 			System.out.println("--------------------------------------------------------");
 			
-		}
+		
 	}
 
 	
