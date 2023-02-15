@@ -89,10 +89,10 @@ public class ThreadRace implements Runnable{
 	
 	@Override
 	public void run() {
-	lock.lock();
+
 			threadRace();
 		
-	lock.unlock();	
+	
 	}
 
 	
