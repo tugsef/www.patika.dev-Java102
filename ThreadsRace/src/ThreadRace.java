@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class ThreadRace implements Runnable{
 	
-	private Lock lock = new ReentrantLock();
+	
 	
 	private static ArrayList<Integer> mainList = new ArrayList<>();
 	private static ArrayList<ArrayList<Integer>> simpleList = new ArrayList<>();
@@ -44,7 +44,7 @@ public class ThreadRace implements Runnable{
 		}
 	}
 
-	public synchronized  void threadRace() {
+	public  void threadRace() {
 		
 				
 		System.out.println("******************************************************\n");
