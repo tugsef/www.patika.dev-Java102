@@ -57,7 +57,7 @@ public class ThreadRace implements Runnable{
 		}
 	}
 
-	public synchronized  void threadRace() {
+	public   void threadRace() {
 		
 				
 		
@@ -74,7 +74,7 @@ public class ThreadRace implements Runnable{
 		
 	incerease(threadselect);
 		
-		System.out.println((this.threadselect+1) + ".Thread işini bitirdi");
+		System.out.println("\n" + (this.threadselect+1) + ".Thread işini bitirdi");
 		
 		System.out.println("--------------------------------------------------------");
 		System.out.println((this.threadselect+1) + ".Listenin eleman sayısı : " + simpleList.get(threadselect).size());
@@ -96,37 +96,8 @@ public class ThreadRace implements Runnable{
 	
 	}
 
-	public static ArrayList<Integer> getMainList() {
-		return mainList;
-	}
+	
 
-	public static void setMainList(ArrayList<Integer> mainList) {
-		ThreadRace.mainList = mainList;
-	}
-
-	public static ArrayList<Integer> getOddNumberList() {
-		return oddNumberList;
-	}
-
-	public static void setOddNumberList(ArrayList<Integer> oddNumberList) {
-		ThreadRace.oddNumberList = oddNumberList;
-	}
-
-	public static ArrayList<Integer> getEvenNumberLİst() {
-		return evenNumberLİst;
-	}
-
-	public static void setEvenNumberLİst(ArrayList<Integer> evenNumberLİst) {
-		ThreadRace.evenNumberLİst = evenNumberLİst;
-	}
-
-	public int getThreadselect() {
-		return threadselect;
-	}
-
-	public void setThreadselect(int threadselect) {
-		this.threadselect = threadselect;
-	}
 
 	
  
