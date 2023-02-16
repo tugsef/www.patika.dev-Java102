@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.Scanner;
+
+import javax.sql.rowset.spi.SyncFactory;
 
 public class ThreadRace {
 	
@@ -8,10 +11,12 @@ public class ThreadRace {
 	private  ArrayList<Integer> oddNumberList = new ArrayList<>();
 	private  ArrayList<Integer> evenNumberLİst = new ArrayList<>();
 	
-	private Random random= new Random();
-	
 	private Object lock1 = new Object();
 	private Object lock2 = new Object();
+	
+	private Random random= new Random();
+	private Scanner scanner = new Scanner(System.in);
+	
 	
 	private int count = 0;
 	
@@ -66,8 +71,13 @@ public class ThreadRace {
 			
 		
 		 System.out.println((id+1) + ".Thread Yarışa Başladı...");
-			
+		
+		 
 		 synchronized (lock1) {
+			 
+				
+			
+			 
 			for (int i = 0 ; i <mainList.size() ; i++ ) {
 				if(i%4==id) {
 					
