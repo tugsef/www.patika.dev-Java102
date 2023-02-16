@@ -13,6 +13,8 @@ public class ThreadRace {
 	private Object lock1 = new Object();
 	private Object lock2 = new Object();
 	
+	private int count = 0;
+	
 	public void addMainArray() {
 		
 		for (int i = 0; i < 10000; i++) {
@@ -63,7 +65,7 @@ public class ThreadRace {
 		
 			
 		
-		 System.out.println((id+1) + ".Thread işe başladı...");
+		 System.out.println((id+1) + ".Thread Yarışa Başladı...");
 			
 		 synchronized (lock1) {
 			for (int i = 0 ; i <mainList.size() ; i++ ) {
@@ -76,7 +78,15 @@ public class ThreadRace {
 		 }
 		increase(id);
 			
-			System.out.println("\n" + (id+1) + ".Thread işini bitirdi");
+			System.out.println("\n" + (id+1) + ".Thread Yarışı Bitirdi ");
+			count++;
+			System.out.println(count + ".Sırada Tamamladı\n");
+			
+			
+			if(count==1) {
+				System.out.println("\n\n****Yarışın Kazananı : " + (id+1) + " .Thread****\n\n");
+			}
+			
 			
 			System.out.println("--------------------------------------------------------");
 			System.out.println((id+1) + ".Listenin eleman sayısı : " + simpleList.get(id).size());
