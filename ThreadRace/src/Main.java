@@ -31,10 +31,10 @@ public class Main {
 		
 		
 		try {
-			thrace1.join();
 			thrace2.join();
 			thrace3.join();
 			thrace4.join();
+			thrace1.join();
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
