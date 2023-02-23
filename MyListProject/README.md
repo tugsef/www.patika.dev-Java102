@@ -145,6 +145,6 @@ Listemde 20 değeri : true
 Listemde 120 değeri : false
 []
    ```
-  PROJE [Orta Seviye Java ile Web Development Patikası Java 102](https://app.patika.dev/sefad) dersi kapsamında tarafımca kodlanmıştır.
+ > PROJE [Orta Seviye Java ile Web Development Patikası Java 102](https://app.patika.dev/sefad) dersi kapsamında tarafımca kodlanmıştır.
   
 
