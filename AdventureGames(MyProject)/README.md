@@ -117,4 +117,4 @@ JAVA ile nesne tabanlı bir oyun yapıyoruz.
     
   - *Hiç birşey kazanamama ihtimali : 45%*
 
- PROJE [Patika.dev Kişisel Sayfam ](https://app.patika.dev/sefad) Orta Seviye Java ile Web Development Patikası 102 dersi kapsamında verilen senaryoya çerçevesinde kodlanmıştır.
+ PROJE [Orta Seviye Java ile Web Development Patikası JAVA 102](https://app.patika.dev/sefad) dersi kapsamında verilen senaryoya çerçevesinde kodlanmıştır.
