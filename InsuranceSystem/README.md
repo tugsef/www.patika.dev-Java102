@@ -7,7 +7,7 @@ Account sınıfı müşterinin sisteme giriş
 sonrasında tüm bilgilerinin tutulduğu hesap bilgisidir. 
 **Account** sınıfı içinde **User** tipinde bir nesne referansı bulunur. (Aggeration ilişkisi olarak)
 
-**User** sınıfı müşterinin kişi bilgilerini ifade eder. "User" sınıfında müşterinin
+**User** sınıfı müşterinin kişi bilgilerini ifade eder. **User** sınıfında müşterinin
    + isim (String)
    + soyisim (String),
    + email (String),
@@ -27,18 +27,18 @@ nesnesinin adres listesine eleman ekleme-çıkarma yapabilen iki tane static fon
 
 
 
-**Account** sınıfında müşteri bilgilerini ekrana yazdıran "final" tipinde, değer döndürmeyen ve ismi "showUserInfo" bir fonksiyon tanımlayınız.
+**Account** sınıfında müşteri bilgilerini ekrana yazdıran **final** tipinde, değer döndürmeyen ve ismi **showUserInfo** bir fonksiyon tanımlayınız.
 
 
 
-**Account** sınıfında müşterilerin yaptırdıkları sigortaları liste halinde saklayınız. Sigortayı temsil eden "Insurance" isminde bir soyut sınıf 
+**Account** sınıfında müşterilerin yaptırdıkları sigortaları liste halinde saklayınız. Sigortayı temsil eden **Insurance** isminde bir soyut sınıf 
   tasarlayınız. Bu soyut sınıf içinde
   
   + sigortanın ismi (String),
   + sigortanın ücreti (double)
   + sigortanın başlangıç-bitiş tarihi (Date)
   
-gibi değişkenlere sahip olacaktır. Ayrıca "calculate" isminde soyut bir fonksiyon tanımlanacaktır. Bu soyut fonksiyon aşağıda kalıtım alınan 
+gibi değişkenlere sahip olacaktır. Ayrıca **calculate** isminde soyut bir fonksiyon tanımlanacaktır. Bu soyut fonksiyon aşağıda kalıtım alınan 
 sınıflarda doldurulacaktır.
   
   Bu soyut sınıftan türeyen
@@ -47,8 +47,8 @@ sınıflarda doldurulacaktır.
   + **ResidenceInsurance** (konut sigortası),
   + **TravelInsurance** (seyahat sigortası),
   + **CarInsurance** (otomobil sigortası)
-  4 tane alt sınıf tasarlayınız. Her alt sınıf "calculate" isimli soyut fonksiyonu override ederek, sigorta ücretini kendine göre hesaplayacaktır.
-  Yukarıdaki tanımları dikkate aldığımızda soyut sınıf olan "Account" sınıfında aşağıdakiler yer almalıdır.
+  4 tane alt sınıf tasarlayınız. Her alt sınıf **calculate** isimli soyut fonksiyonu override ederek, sigorta ücretini kendine göre hesaplayacaktır.
+  Yukarıdaki tanımları dikkate aldığımızda soyut sınıf olan **Account** sınıfında aşağıdakiler yer almalıdır.
   + kullanıcının login olma durumu (AuthenticationStatus)
   + kullanıcı nesnesi (User)
   + kullanıcının yaptırmış olduğu sigortaların listesi (ArrayList)
@@ -60,7 +60,7 @@ sınıflarda doldurulacaktır.
   tipinde bir hata fırlatacaktır. Bu hata sınıfını Exception isimli Java sınıfından kalıtım alarak sizin yazmanız gerekecektir.
   + kullanıcının adreslerine ekleme yapabileceği bir soyut olmayan fonksiyon tanımlanacaktır. kullanıcının adreslerinden çıkartma 
   yapabileceği bir soyut olmayan fonksiyon tanımlanacaktır. kullanıcının login olma durumunu veren değer döndüren fonksiyon tanımlanacaktır.
-  + kullanıcının sigorta poliçesi ekleyebilmesi için soyut (abstract) bir fonksiyon tanımlanacaktır. Bu soyut sınıf "Individual" ve 
+  + kullanıcının sigorta poliçesi ekleyebilmesi için soyut (abstract) bir fonksiyon tanımlanacaktır. Bu soyut sınıf **Individual** ve 
   **Enterprise** isimli alt sınıflarda override edilerek doldurulacaktır. Çünkü, bireysel ve kurumsal müşterilerin ekledikleri paketlerin 
   fiyatlarına uygulanan kar marjı farklı olacaktır.
 
@@ -75,11 +75,11 @@ sınıflarda doldurulacaktır.
 
 
 **Account** sınıfından nesneleri TreeSet içinde tutacağımız için **Account** interface'den kalıtım almış olmasına dikkat edin. Ayrıca, 
-  "Account" sınıfının "hashCode" ve "equals" fonksiyonlarını doldurmayı unutmayın.
+  **Account** sınıfının **hashCode** ve **equals** fonksiyonlarını doldurmayı unutmayın.
 
 
 
-Klavyeden email ve şifre bilgisini alan bir sınıf tasarlayınız. Klavyeden alınan email ve şifre bilgisi ile AccountManager sınıfındaki "login" 
+Klavyeden email ve şifre bilgisini alan bir sınıf tasarlayınız. Klavyeden alınan email ve şifre bilgisi ile AccountManager sınıfındaki **login**
   fonksiyonunu çağırın. Eğer geçerli bir kullanıcı ile giriş yapmışsanız bu fonksiyon size Account tipinde bir nesne dönecektir.
   
   > PROJE [Orta Seviye Java ile Web Development Patikası Java 102](https://app.patika.dev/sefad) dersi kapsamında tarafımdan hazırlanmıştır.
