@@ -1,4 +1,4 @@
-# patika.dev
+# :envelope: patika.dev
 Patika.dev Educational Projects
 
 Repository Patika.dev tarafından ders içeriği oluşturulmuş Orta Seviye Java ile Web Development Patikası Java 102 dersi notlarımı ve ders kapsamındaki projelerimi içerir. 
