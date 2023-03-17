@@ -1,5 +1,4 @@
-# Uçuş Yönetim Sistemi Senaryo
-
+# Flight and Pilot System Managament Scenario
 Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
 
 - Hava yolu şirketleri uçuşları gerçekleştirir. Her hava yolunun bir kimliği vardır.
@@ -13,4 +12,16 @@ Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
 
 **Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.**
 
+## Flight and Pilot System Managament
+
    ![FlightandPilotManagementSystem](https://user-images.githubusercontent.com/39422788/225858837-dab09329-18e0-4496-ae31-22963380ccc9.png)
+   
+ # :e-mail: Contact
+|***Sefa Demirtaş***|
+|:-------------|
+|*Java Developer*|
+|[Linkedin](linkedin.com/in/sefa-demirtaş-86b473230)|
+|[Patika.dec](https://app.patika.dev/sefad)|
+|sefa.demirtas91@gmail.com|
+
+> Yazı içeriği [Patika.dev](https://www.patika.dev/) tarafından belirlenen [Object Oriented Programming](https://app.patika.dev/courses/oop/odev-flight) dersi kapsamında tarafımca oluşturulmuştur.
