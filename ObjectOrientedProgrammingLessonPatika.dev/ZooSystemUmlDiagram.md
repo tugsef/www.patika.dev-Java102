@@ -18,10 +18,11 @@ Bir hayvanat bahçesindeki hayvanlar hakkındaki bilgileri takip etmek için bir
   ![ZooSystemUMLDiagram](https://user-images.githubusercontent.com/39422788/225815286-9af037d0-b0de-45d3-8280-0de921125f81.png)
 
 # :e-mail: Contact
-|Sefa Demirtaş|
+|***Sefa Demirtaş***|
 |:-------------|
-|Java Depolover|
+|*Java Developer*|
 |[Linkedin](linkedin.com/in/sefa-demirtaş-86b473230)|
+|[Patika.dec](https://app.patika.dev/sefad)|
 |sefa.demirtas91@gmail.com|
 
-> Yazı içeriği Patika.dev[https://www.patika.dev/] tarafından belirlenen [Object Oriented Programming](https://app.patika.dev/courses/oop/odev-zoo) dersi kapsamında tarafımca oluşturulmuştur.
+> Yazı içeriği [Patika.dev](https://www.patika.dev/) tarafından belirlenen [Object Oriented Programming](https://app.patika.dev/courses/oop/odev-zoo) dersi kapsamında tarafımca oluşturulmuştur.
