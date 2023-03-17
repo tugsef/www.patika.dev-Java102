@@ -1,4 +1,4 @@
-# Hayvanat Bahçe Yönetimi Senaryo
+# Zoo System Scenario
 
 Bir hayvanat bahçesindeki hayvanlar hakkındaki bilgileri takip etmek için bir sistem tasarlıyorsunuz.
 
@@ -14,7 +14,7 @@ Bir hayvanat bahçesindeki hayvanlar hakkındaki bilgileri takip etmek için bir
 >Sistemin bu işlevleri yerine getirme mantığı, her gruplama için farklı olacaktır. Örneğin, atlar için yem verme algoritması farklı olup, kaplanlar için farklı olacaktır.
 
 **Polimorfizm modelini kullanarak, yukarıda açıklanan durumu ele almak için bir sınıf diyagramı tasarlayın.**
-
+## Zoo System UML Disgrsm
   ![ZooSystemUMLDiagram](https://user-images.githubusercontent.com/39422788/225815286-9af037d0-b0de-45d3-8280-0de921125f81.png)
 
 # :e-mail: Contact
