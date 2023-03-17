@@ -24,4 +24,4 @@ Bir hayvanat bahçesindeki hayvanlar hakkındaki bilgileri takip etmek için bir
 |[Linkedin](linkedin.com/in/sefa-demirtaş-86b473230)|
 |sefa.demirtas91@gmail.com|
 
-> Yazı içeriği Patika.dev[https://www.patika.dev/] tarafından belirlenen [Object Oriented Programming](https://app.patika.dev/courses/oop/odev-zoo) dersi ders kapsamında tarafımca oluşturulmuştur.
+> Yazı içeriği Patika.dev[https://www.patika.dev/] tarafından belirlenen [Object Oriented Programming](https://app.patika.dev/courses/oop/odev-zoo) dersi kapsamında tarafımca oluşturulmuştur.
