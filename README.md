@@ -7,5 +7,5 @@ Repository Patika.dev tarafından ders içeriği oluşturulmuş Orta Seviye Java
 |:-------------|
 |*Java Developer*|
 |[Linkedin](linkedin.com/in/sefa-demirtaş-86b473230)|
-|[Patika.dec](https://app.patika.dev/sefad)|
+|[Patika.dev](https://app.patika.dev/sefad)|
 |sefa.demirtas91@gmail.com|
