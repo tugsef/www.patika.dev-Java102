@@ -20,7 +20,7 @@ Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
 |***Sefa Demirtaş***|
 |:-------------|
 |*Java Developer*|
-|[Linkedin](linkedin.com/in/sefa-demirtaş-86b473230)|
+|[Linkedin](https://www.linkedin.com/in/sefa-demirta%C5%9F-86b473230/)|
 |[Patika.dec](https://app.patika.dev/sefad)|
 |sefa.demirtas91@gmail.com|
 
