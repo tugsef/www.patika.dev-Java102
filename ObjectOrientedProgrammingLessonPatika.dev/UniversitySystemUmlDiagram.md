@@ -18,12 +18,12 @@ Bu sistemi tasvir eden Class (Sınıf) diyagramını çiziniz.
 
  ![UniversitySystemUmlDiagram](https://user-images.githubusercontent.com/39422788/225619221-b9db266c-272f-4ea8-a409-a8afd95679bc.jpg)
  
- # :e-mail: Contact
+# :e-mail: Contact
 |***Sefa Demirtaş***|
 |:-------------|
 |*Java Developer*|
-|[Linkedin](linkedin.com/in/sefa-demirtaş-86b473230)|
-|[Patika.dec](https://app.patika.dev/sefad)|
+|[Linkedin](https://www.linkedin.com/in/sefa-demirta%C5%9F-86b473230/)|
+|[Patika.dev](https://app.patika.dev/sefad)|
 |sefa.demirtas91@gmail.com|
 
 
