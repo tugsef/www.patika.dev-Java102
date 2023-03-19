@@ -13,9 +13,9 @@ Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
 **Bu sistemi tasvir eden Class(Sınıf) diyagramını çiziniz.**
 
 ## Flight and Pilot System Managament
+![FlightandPilotManagementSystem](https://user-images.githubusercontent.com/39422788/226153244-e7aba3cb-5de1-4bdd-93ff-ac3c1b9115ed.png)
 
-   ![FlightandPilotManagementSystem](https://user-images.githubusercontent.com/39422788/225858837-dab09329-18e0-4496-ae31-22963380ccc9.png)
-   
+ 
  # :e-mail: Contact
 |***Sefa Demirtaş***|
 |:-------------|
