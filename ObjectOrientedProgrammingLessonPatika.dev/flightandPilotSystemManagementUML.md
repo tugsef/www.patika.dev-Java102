@@ -21,7 +21,7 @@ Uçuşların ve pilotların yönetimi için bir sistem tasarlayın.
 |:-------------|
 |*Java Developer*|
 |[Linkedin](https://www.linkedin.com/in/sefa-demirta%C5%9F-86b473230/)|
-|[Patika.dec](https://app.patika.dev/sefad)|
+|[Patika.dev](https://app.patika.dev/sefad)|
 |sefa.demirtas91@gmail.com|
 
 > Yazı içeriği [Patika.dev](https://www.patika.dev/) tarafından belirlenen [Object Oriented Programming](https://app.patika.dev/courses/oop/odev-flight) dersi kapsamında tarafımca oluşturulmuştur.
