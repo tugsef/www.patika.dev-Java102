@@ -2,8 +2,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-import javax.sql.rowset.spi.SyncFactory;
-
 public class ThreadRace {
 	
 	private  ArrayList<Integer> mainList = new ArrayList<>();
